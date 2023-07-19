@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#moon{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+@font-face {
+    font-family: open-sans;
+    src: url('../Fonts/open-sans.regular_1.ttf');
+}
+h1{
+    font-family: open-sans;
+    width: 100%;
+    text-align: center;
+    letter-spacing: 10px;
+    background-color: transparent;
+    color: white;
+    /* margin-top: 200px; */
+    word-spacing: 20px;
+    position: absolute;
+    top: 40%;
+    /* left: 20%; */
+    font-size: 60px;
+  }
